@@ -1,26 +1,26 @@
 class Skillhub < Formula
   desc "Skill package manager for AI agents"
   homepage "https://github.com/CassianFlorin/skill-hub"
-  version "1.3.3"
+  version "1.3.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/CassianFlorin/skill-hub/releases/download/v1.3.3/skillhub_v1.3.3_darwin_arm64.tar.gz"
-      sha256 "8d4a35a58b6d39c27a82714379f6da8b12ff916da1c412ad524703634d8a260d"
+      url "https://github.com/CassianFlorin/skill-hub/releases/download/v1.3.4/skillhub_v1.3.4_darwin_arm64.tar.gz"
+      sha256 "82701ab394116e9634de8d2628f321ce98d64dd357b4c21d07ddd1e27de8cb5b"
     else
-      url "https://github.com/CassianFlorin/skill-hub/releases/download/v1.3.3/skillhub_v1.3.3_darwin_amd64.tar.gz"
-      sha256 "99785a5ca66625cf87d5b89b02c196efe71f7b92ca7a6d0d667e3a51834acb70"
+      url "https://github.com/CassianFlorin/skill-hub/releases/download/v1.3.4/skillhub_v1.3.4_darwin_amd64.tar.gz"
+      sha256 "c323910cf6ed25f5d63c41fe63be49179c23eacf95113842f8b8bdce5c793619"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/CassianFlorin/skill-hub/releases/download/v1.3.3/skillhub_v1.3.3_linux_arm64.tar.gz"
-      sha256 "a133e85b55eaa2101e1f53357cbb99a1871aed866962ae4db572a42c163e9c04"
+      url "https://github.com/CassianFlorin/skill-hub/releases/download/v1.3.4/skillhub_v1.3.4_linux_arm64.tar.gz"
+      sha256 "ad6c03e66e7a2bc0e545563fc8e7268dc6d9d0433c705b883e3320e577867003"
     else
-      url "https://github.com/CassianFlorin/skill-hub/releases/download/v1.3.3/skillhub_v1.3.3_linux_amd64.tar.gz"
-      sha256 "26ed404d8dd0016d154ed2a7387dc821d666b8d4cf4e12b4261f519365e4362b"
+      url "https://github.com/CassianFlorin/skill-hub/releases/download/v1.3.4/skillhub_v1.3.4_linux_amd64.tar.gz"
+      sha256 "23bb2c5cfc971c70eca313fe50135dd9fa6a2dee2d8a05dc2ee48d3100d67cb4"
     end
   end
 
