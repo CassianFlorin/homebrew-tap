@@ -1,6 +1,6 @@
 cask "waitlight" do
-  version "0.10.0"
-  sha256 "167bc16d37fd9cb95b5ea964d5590657f8ddeb7c4c5a3b722ab7cc9654e61b45"
+  version "0.10.1"
+  sha256 "b05d0b3d14e527f84fdf3b2b6aa4947c960a002efd7b64bb7d69d7fb48b0f62c"
 
   url "https://github.com/CassianFlorin/Waitlight/releases/download/v#{version}/Waitlight-#{version}.dmg"
   name "Waitlight"
